@@ -1,0 +1,21 @@
+{
+  "name": "compassionate",
+  "version": "1.0.0",
+  "description": "compassionate barker company ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oluwatobi Oyebade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mailgun-js": "^0.22.0",
+    "nodemailer": "^6.6.0",
+    "nodemailer-mailgun-transport": "^2.0.3",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
