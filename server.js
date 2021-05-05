@@ -1,3 +1,4 @@
+const log = console.log;
 const express = require("express");
 const sendMail = require('./mail')
 const bodyParser = require("body-parser");
