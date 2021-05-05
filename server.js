@@ -24,7 +24,7 @@ app.post("/contact", (req, res) => {
       res.json({message: "Email has been sent!!"})
     }
   })
-  return res.redirect("/index")
+  
 });
 
 
