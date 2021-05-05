@@ -61,5 +61,6 @@ app.set("view engine", "ejs");
 
 
 app.listen(8080, () => {
-  console.log("compassionate development server is now running");
+  console.log("compassionate server is now running");
+
 });
