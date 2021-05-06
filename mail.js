@@ -3,7 +3,7 @@ const mailGun = require("nodemailer-mailgun-transport");
 
 const auth = {
     auth: {
-        api_key:'d819d35db09946719db3c6c51af271c9-28d78af2-e6632f20',
+        api_key:'key-12e3e5b69927fb2f1d59b035d075b126',
         domain:'mail.69unlockers.com'
     }
 }
