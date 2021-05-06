@@ -61,7 +61,7 @@ app.get("/contact", (req, res)=> {
 app.set("view engine", "ejs");
 
 
-app.listen(8080, () => {
+app.listen(process.env.PORT || 8080, () => {
   console.log("compassionate server is now running");
 
 });
