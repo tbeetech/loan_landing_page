@@ -130,7 +130,7 @@ ul {
 }
 .yyy {
   position: relative;
-  top:60px;
+  top: 60px;
   right: 100px;
 }
 
@@ -138,7 +138,7 @@ ul {
   text-decoration: underline;
 }
 
-.subsub{
+.subsub {
   background-color: #3143ef;
   color: white;
   /* border: 1px solid red; */
@@ -146,34 +146,35 @@ ul {
   width: 170px;
   height: 70px;
 }
-.subsub:hover{
-
+.subsub:hover {
   border: 5px solid red;
-
 }
 
+/* .jx1 {
+  display: none;
+}
+.jx2 {
+  display: none !important;
+} */
 .comp {
   position: relative;
   right: 180px;
   top: 28px;
   font-family: "Noto Sans KR", sans-serif;
-  color:#0d092c; 
+  color: #0d092c;
 }
 
-@media only screen and (min-width: 900px){
-
+@media only screen and (min-width: 900px) {
   .xxx {
     position: relative;
     /* right: 100px; */
     right: 100px !important;
   }
-  
 }
-  
 
 .upper {
   position: relative;
-  top:10px;
+  top: 10px;
 }
 /* ------------------------
     Helper class
