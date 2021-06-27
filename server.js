@@ -65,10 +65,9 @@ app.get("/contact", (req, res)=> {
 app.set("view engine", "ejs");
 
 
-const server = app.listen(process.env.PORT || 8080, () => {
-  console.log("compassionate server is now running");
-
-});
+const server = app.listen(process.env.PORT || 8080)
 
 server.keepAliveTimeout = 65000
 
+
+// console.log("compassionate server is now running");
