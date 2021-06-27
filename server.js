@@ -65,7 +65,7 @@ app.get("/contact", (req, res)=> {
 app.set("view engine", "ejs");
 
 
-const server = app.listen(process.env.PORT || 8080)
+const server = app.listen(process.env.PORT || 80)
 
 server.keepAliveTimeout = 65000
 
