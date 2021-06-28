@@ -67,7 +67,7 @@ app.set("view engine", "ejs");
 
 const server = app.listen(process.env.PORT || 80)
 
-server.keepAliveTimeout = 75000
+server.keepAliveTimeout = 400000
 
 
 // console.log("compassionate server is now running");
