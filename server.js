@@ -1,3 +1,4 @@
+const PORT = 8080;
 const log = console.log;
 const express = require("express");
 const sendMail = require('./mail')
@@ -65,7 +66,9 @@ app.get("/contact", (req, res)=> {
 app.set("view engine", "ejs");
 
 
-const server = app.listen(process.env.PORT || 80)
+const server = app.listen(process.env.PORT || PORT, ()=> {
+  console.log('runs @ port{8080}');
+})
 
 server.keepAliveTimeout = 60
 
