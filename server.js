@@ -61,6 +61,10 @@ app.get("/contact", (req, res)=> {
   res.render("contact")
 });
 
+app.get("/gallery", (req, res)=> {
+  res.render("gallery")
+})
+
 //MAILING SYSTEM.....
 
 app.set("view engine", "ejs");
