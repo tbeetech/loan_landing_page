@@ -1440,3 +1440,14 @@ background: #707070;
   position: relative;
   bottom: 50px;
 }
+
+
+
+@media screen and (min-width: 480px) {
+
+  #GalleryIntro {
+    position: relative;
+    text-align: center;
+    
+  }
+}
