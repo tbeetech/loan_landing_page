@@ -160,8 +160,8 @@ $('.banner-slider').each( function() {
       dots : $carousel.data("dots"),
       nav : $carousel.data("nav"), 
       animateIn: 'pulse',   
-      autoplay : true,
-      autoplayTimeout : 6000,
+      autoplay : 12000,
+      autoplayTimeout :12000,
       navText : [ '<span class="fas fa-chevron-left"><span>', '<span class="fas fa-chevron-right"></span>' ],
   });
 });
