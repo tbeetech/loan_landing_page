@@ -1450,8 +1450,33 @@ background: #707070;
     text-align: center;
     
   }
+  .tintCaro {
+    position: relative;
+    width: 660px;
+    height: auto;
+    text-align: center; 
+    margin: auto;
+  }
+  .tintCaroes {
+    position: relative;
+    width: 660px;
+    height: auto;
+    text-align: center; 
+    margin: auto;
+  }
 }
 
 .ikk {
   text-align: center;
 }
+
+/* .carousel-inner > .item > img {
+    width:640px !important;
+    height:360px !important;
+  } */
+
+
+/* .underbold {
+  text-decoration: underline !important;
+  text-decoration: solid ;
+} */
