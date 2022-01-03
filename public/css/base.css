@@ -372,7 +372,6 @@ span,
   animation: loader4 10s ease-in-out infinite;
 }
 .loader:after {
-  background-image: url("/images/logo4.png");
   content: "COBAL";
   color: #0f1a7c;
   font-weight: bold;
