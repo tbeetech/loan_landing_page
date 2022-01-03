@@ -270,11 +270,11 @@
 }
 .owl-carousel .owl-dots .owl-dot.active:before,
 .owl-carousel .owl-dots .owl-dot.active:after {
-  background-color: #fd0303;
+  background-color: rgb(194, 3, 3);
 }
 .owl-carousel .owl-dots .owl-dot.active:before,
 .owl-carousel .owl-dots .owl-dot.active:after {
-  background-color: #fd0303;
+  background-color: rgb(194, 3, 3);
 }
 .owl-carousel .owl-dots .owl-dot:hover span,
 .owl-carousel .owl-dots .owl-dot.active span {

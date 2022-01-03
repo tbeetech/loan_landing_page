@@ -9,17 +9,17 @@
     General
 ------------------------*/
 ::-moz-selection {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #fff;
   text-shadow: none;
 }
 ::-moz-selection {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #fff;
   text-shadow: none;
 }
@@ -62,7 +62,7 @@
 .owl-carousel .owl-nav button.owl-next:hover,
 .banner-slider.owl-carousel .owl-nav button.owl-prev:hover,
 .banner-slider.owl-carousel .owl-nav button.owl-next:hover {
-  background-color: #fd0303;
+  background-color: rgb(194, 3, 3);
 }
 
 .theme-bg-2,
@@ -158,7 +158,7 @@ h1 span,
 .review-list .review-rating,
 .timeline-title h2,
 .btn-simple:hover {
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 
 .featured-item:hover .featured-icon i,
@@ -196,7 +196,7 @@ h1 span,
 .pagination > li.active .page-link,
 .page-link:hover,
 .page-link:focus {
-  border-color: #fd0303;
+  border-color: rgb(194, 3, 3);
 }
 
 /* ------------------------
@@ -207,7 +207,7 @@ h1 span,
 }
 
 .form-control {
-  border-bottom-color: #fd0303;
+  border-bottom-color: rgb(194, 3, 3);
 }
 
 .theme-bg input:-webkit-autofill,

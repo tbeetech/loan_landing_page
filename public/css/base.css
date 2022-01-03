@@ -359,7 +359,7 @@ span,
 .loader:before {
   content: "";
   position: absolute;
-  background-color: #fd0303;
+  background-color: rgb(194, 3, 3);
   top: 0px;
   left: 0px;
   height: 50px;
@@ -372,8 +372,9 @@ span,
   animation: loader4 10s ease-in-out infinite;
 }
 .loader:after {
-  content: "Compassionate Backers LTD";
-  color: #3143ef;
+  background-image: url("/images/logo4.png");
+  content: "COBAL";
+  color: #0f1a7c;
   font-weight: bold;
   font-size: 35px;
   position: absolute;
@@ -792,7 +793,7 @@ span,
   animation: smoothScroll 1s forwards;
 }
 #header-wrap::before {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   content: "";
   width: 100%;
   height: 100%;
@@ -964,7 +965,7 @@ span,
 }
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-item .nav-link.active {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #ffffff;
 }
 
@@ -998,7 +999,7 @@ span,
 }
 .header-2 .topbar-link i {
   font-size: 20px;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .header-2 .header-top .social-icons li a,
 .header-2 .topbar-link a,
@@ -1017,7 +1018,7 @@ span,
   .header-2 .navbar-nav .nav-link:hover,
   .header-2 .navbar-nav .nav-item .nav-link.active {
     background: none;
-    color: #fd0303;
+    color: rgb(194, 3, 3);
   }
   .header-3 .navbar-nav .nav-link:hover,
   .header-3 .navbar-nav .nav-item .nav-link.active {
@@ -1245,7 +1246,7 @@ span,
 }
 .media-icon li i {
   font-size: 30px;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
   vertical-align: middle;
   line-height: 30px;
   margin-right: 10px;
@@ -1254,7 +1255,7 @@ span,
   color: rgba(255, 255, 255, 0.8);
 }
 .media-icon li a:hover {
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .footer-list li {
   margin-bottom: 15px;
@@ -1269,7 +1270,7 @@ span,
   color: rgba(255, 255, 255, 0.8);
 }
 .footer-list li a:hover {
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .copyright span {
   color: rgba(255, 255, 255, 0.8);

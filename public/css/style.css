@@ -293,7 +293,7 @@ section {
   background-color: #3143ef;
 }
 .theme-bg-2 {
-  background-color: #fd0303;
+  background-color: rgb(194, 3, 3);
 }
 .transparent-bg {
   background-color: inherit !important;

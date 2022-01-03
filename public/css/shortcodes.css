@@ -74,7 +74,7 @@
   color: #081b3a;
 }
 .btn:hover {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #ffffff;
 }
 .btn.focus,
@@ -90,7 +90,7 @@
   color: #081b3a;
 }
 .btn.btn-white:hover {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #ffffff;
 }
 
@@ -109,9 +109,9 @@
   color: #ffffff;
 }
 .btn.btn-border.white:hover {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #ffffff;
-  border-color: #fd0303;
+  border-color: rgb(194, 3, 3);
 }
 
 /*** Style 2 ***/
@@ -177,7 +177,7 @@
 }
 .btn-2:hover:before {
   width: 100%;
-  background: #fd0303;
+  background: rgb(194, 3, 3);
 }
 .btn-2:hover .btn-icon.btn-arrow {
   background: #fff;
@@ -250,7 +250,7 @@
 }
 .btn-2.white:hover:before {
   width: 100%;
-  background: #fd0303;
+  background: rgb(194, 3, 3);
 }
 .btn-2.white:hover .btn-icon.btn-arrow {
   background: #fff;
@@ -283,8 +283,8 @@
   color: #ffffff;
 }
 .btn-2.btn-border:hover:before {
-  background: #fd0303;
-  border: 2px solid #fd0303;
+  background: rgb(194, 3, 3);
+  border: 2px solid rgb(194, 3, 3);
 }
 .btn-2.btn-border .btn-icon.btn-arrow::before {
   border-top-color: #3143ef;
@@ -614,7 +614,7 @@
   color: #3143ef;
 }
 .team-member .team-description h5 a:hover {
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .team-member .team-social-icon {
   position: absolute;
@@ -653,7 +653,7 @@
   text-align: center;
 }
 .team-member .team-social-icon ul li a:hover {
-  background: #fd0303;
+  background: rgb(194, 3, 3);
   color: #ffffff;
 }
 .team-member img {
@@ -850,7 +850,7 @@
   font-size: 60px;
   line-height: 60px;
   font-weight: normal;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
   margin-bottom: 30px;
   display: block;
 }
@@ -858,7 +858,7 @@
   color: #ffffff;
 }
 .dark-bg .counter h6 {
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .theme-bg .counter span,
 .theme-bg .counter h6,
@@ -1168,7 +1168,7 @@
 .testimonial .testimonial-caption label {
   margin-bottom: 0;
   font-weight: 600;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
   display: block;
 }
 .testimonial .testimonial-caption h5 {
@@ -1256,7 +1256,7 @@
   -webkit-animation: toTopFromBottom 0.9s forwards;
   -moz-animation: toTopFromBottom 0.9s forwards;
   animation: toTopFromBottom 0.9s forwards;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 
 /*** Style 2 ***/
@@ -1530,7 +1530,7 @@
 .price-value > span {
   margin: 5px 0;
   display: block;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .price-list ul li {
   position: relative;
@@ -1584,7 +1584,7 @@
   position: absolute;
   right: 0;
   top: -18px;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
   font-size: 16px;
   font-weight: 600;
 }
@@ -1631,7 +1631,7 @@
 }
 .cases-item.style-3 .cases-desc span {
   background: #ffffff;
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .cases-item.style-3:before {
   position: absolute;
@@ -1838,7 +1838,7 @@
 .sidebar-links li.active a,
 .sidebar-links li a:hover:before {
   width: 100%;
-  background: #fd0303;
+  background: rgb(194, 3, 3);
 }
 .sidebar-links li.active a .link-icon.link-arrow,
 .sidebar-links li a:hover .link-icon.link-arrow {
@@ -1866,7 +1866,7 @@
   position: relative;
 }
 .brochure:hover {
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 .brochure i {
   background: #ffffff;

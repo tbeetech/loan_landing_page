@@ -84,7 +84,7 @@
 .ui-button,
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
-  background-color: #fd0303;
+  background-color: rgb(194, 3, 3);
 }
 
 /* ------------------------
@@ -177,7 +177,7 @@ h1 span,
 .counter-icon i,
 .contact-media.style-2 a:hover,
 .brochure:hover {
-  color: #fd0303;
+  color: rgb(194, 3, 3);
 }
 
 /* ------------------------
@@ -203,7 +203,7 @@ h1 span,
     border Color
 ------------------------*/
 .btn-2.btn-border:hover::before {
-  border-color: #fd0303;
+  border-color: rgb(194, 3, 3);
 }
 
 .form-control {
