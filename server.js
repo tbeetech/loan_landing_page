@@ -40,6 +40,9 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/sitemap", (req, res) => {
+  res.sendFile('/sitemap.xml')
+})
 app.get("/assetinfo", (req, res) => {
  res.render("assetinfo")
 
