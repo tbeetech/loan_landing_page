@@ -71,6 +71,9 @@ app.get("/gallery", (req, res)=> {
 app.get("/investors", (req, res)=> {
   res.render("investors")
 })
+app.get("/customer_feedbacks", (req, res)=> {
+  res.render("customer_feedbacks")
+})
 
 //MAILING SYSTEM.....
 

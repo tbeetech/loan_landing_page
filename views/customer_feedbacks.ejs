@@ -2,15 +2,13 @@
 <%- include("header") -%>
 <div class="page-content">
     <div>
-        <h2 style="padding-top: 7px; color:#091353; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">INVESTORS FEEDBACKS</h2>
-        <h6 style="font-family:'Parisienne', cursive; color: #FF1818; text-align: center;">Are you an Investor at compassionate backers? we extremely appreciate your feedbacks/reviews </h4>
-        <p style="text-align: center;">kindly submit feedbacks tailored to our Investment services in the comment section</p>
+        <h2 style="padding-top: 7px; color:#091353; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">CUSTOMERS FEEDBACKS</h2>
+        <h6 style="font-family:'Parisienne', cursive; color: #FF1818; text-align: center;">Are you a client at COBAL? we extremely appreciate your feedbacks/reviews </h4>
+        <p style="text-align: center;">kindly submit feedbacks tailored to our services in the comment section</p>
     </div>
     
 </div>
-
-<div style="padding: 14px;"
-id="disqus_thread">
+<div style="padding-top: 20px;" id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -23,13 +21,13 @@ id="disqus_thread">
     */
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://compassionatebackers.disqus.com/embed.js';
+    s.src = 'https://tobadeypromo-1.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
+
 <%- include("footer") -%>
 
 <!-- page wrapper end -->
@@ -57,13 +55,16 @@ id="disqus_thread">
       $(document).ready(function(){
          $(".abtclass").removeClass("active");
          $(".homeclass").removeClass("active");
-         $(".servicesclass").addClass("active");
-         $(".contactclass").removeClass("active");
-        
+         $(".servicesclass").removeClass("active");
+         $(".contactclass").addClass("active");
+         $(".investorsclass").removeClass("active");
+       
+
 
  });
 
 </script>
-<script id="dsq-count-scr" src="//compassionatebackers.disqus.com/count.js" async></script>
+
+<script id="dsq-count-scr" src="//tobadeypromo-1.disqus.com/count.js" async></script>
 </body>
 </html>
