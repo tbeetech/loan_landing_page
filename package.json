@@ -2,10 +2,10 @@
   "name": "compassionate",
   "version": "1.0.0",
   "description": "compassionate barker company ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "app": "nodemon server"
+    "start": "node server"
   },
   "author": "Oluwatobi Oyebade",
   "license": "ISC",
