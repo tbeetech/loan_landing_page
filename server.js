@@ -1,3 +1,6 @@
+require('dotenv').config()
+
+
 const PORT = 8080;
 const log = console.log;
 const express = require("express");
@@ -7,6 +10,7 @@ const app = express();
 var path = require("path")
 var favicon = require('serve-favicon');
 app.use(express.static(__dirname + "/public"));
+
 
 // app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
